@@ -35,7 +35,7 @@ ptt: false, seconds: 0,contextInfo: {
     description: 'www.instagram.com/l4c1f2r',
     title: "Now Playing...kon",
     body: wm,
-    thumbnail: await (await fetch('https://telegra.ph/file/84e367f00450a0a383eb1.jpg')).buffer(),
+    thumbnail: await (await fetch('https://telegra.ph/file/f8f337365190df1e60711.jpg')).buffer(),
     sourceUrl: 'www.instagram.com/l4c1f2r'
  	  }
      }
