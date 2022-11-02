@@ -15,13 +15,13 @@ let str = `${global.wm}
 │ • *Ovo:* [${global.povo}]
 │ • *Link Aja:* [${global.plinkaja}]
 ❏────`
-let wibu = `https://i.ibb.co/P5BBzbf/286637238-392674839545088-948545114162206238-n.jpg` 
+let wibu = `https://telegra.ph/file/2181275cc7853bcb61312.jpg` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Sewa Bot','.sewa', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/l4c1f2r",
     mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'KaylaBotz MultiDevice',
+    description: "https://www.instagram.com/reel/CjhIEyGp7Nq/?igshid=YmMyMTA2M2Y=", 
+    title: 'KaylaBotz Md',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sig
