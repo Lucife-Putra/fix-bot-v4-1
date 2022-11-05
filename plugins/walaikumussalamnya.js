@@ -5,7 +5,7 @@ let walaikumussalamnya = fs.readFileSync('./mp3/walaikumussalam.opus')
 conn.sendFile(m.chat, walaikumussalamnya, '', '', m, true)
 }
 
-handler.customPrefix = /^(help|menu|test|.menu|allmenu|listmenu)$/i
+handler.customPrefix = /^(assalamualaikum|Assalamualaikum|Waalaikum salam|p)$/i
 handler.command = new RegExp
 
 export default handler
