@@ -1,7 +1,7 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-let info = fs.readFileSync('./mp3/waalaikumsalam.ogg')
+let info = fs.readFileSync('./mp3/walaikumussalam.opus')
 
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 /*const message = {
@@ -47,7 +47,7 @@ conn.reply(m.chat, info, m, { quoted: fkontak },{ contextInfo: { externalAdReply
       mediaUrl: "https://github.com/ImYanXiao",
       mediaType: 2,
       description: "https://github.com/ImYanXiao", 
-      title: 'whmods-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ',
+      title: 'kaylabotz-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ',
       body: wm,
       thumbnail: thumb,
       sourceUrl: sig  }}})
@@ -55,7 +55,7 @@ conn.reply(m.chat, info, m, { quoted: fkontak },{ contextInfo: { externalAdReply
     conn.sendFile(m.chat, assalamualaikum, '', '', m, true)
     }, 1000)
 }
-handler.customPrefix = /^(assalamualaikum)$/i
+handler.customPrefix = /^(assalamualaikum|Assalamu'alaikum|Assalamualaikum)$/i
 handler.command = new RegExp
 
 export default handler
